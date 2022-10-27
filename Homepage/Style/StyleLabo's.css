@@ -93,7 +93,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px 0;
     flex-wrap: wrap;
 }
 
@@ -104,4 +104,14 @@ button:hover{
     margin: 20px;
 }
 
-.blog
+.labo-img {
+    width: 100%;
+    height: auto;
+}
+
+.labo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
