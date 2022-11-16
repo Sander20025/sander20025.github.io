@@ -1,0 +1,32 @@
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: "Comic Sans MS";
+}
+.main{
+    color: white;
+    background-image: url("header.jpg");
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav{
+    background-color: #444444;
+}
+nav > a{
+    color: lawngreen;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+article{
+    background-color: lightgray;
+    margin-block: 5px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+article > header{
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: 	#808080;
+    font-weight: bold;
+}
